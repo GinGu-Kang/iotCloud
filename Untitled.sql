@@ -111,6 +111,7 @@ ENGINE = InnoDB;
 CREATE TABLE IF NOT EXISTS `pimcs`.`product` (
   `prod_code` VARCHAR(45) NOT NULL ,
   `company_code` VARCHAR(30) NOT NULL,
+  `creatat` VARCHAR(45) NOT NULL,
   `product_category_id` INT NOT NULL,
   `prod_image` VARCHAR(100) NULL,
   `prod_weight` INT NULL,
@@ -137,6 +138,7 @@ ENGINE = InnoDB;
 CREATE TABLE IF NOT EXISTS `pimcs`.`mat` (
   `serial_number` VARCHAR(40) NOT NULL,
   `prod_code` VARCHAR(45) NOT NULL,
+  `creatat` VARCHAR(45) NOT NULL,
   `calc_method` TINYINT(1) NULL ,
   `threshold` INT NULL ,
   `inventory_weight` INT NULL ,
