@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Intro</title>
+    <link  href="/사원_css.css" rel="stylesheet" type="text/css" >
+</head>
+
+<body>
+    <div class="workerForm">
+        <img src="아이콘/1.png" ><br>
+        <form name="signUp" th:action="@{/auth/signUp}" method="post">
+            <input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}" /><br>
+            <input type="hidden" name="enabled" value="true" /><br>
+
+            <input class="input" type="text" name="companyCode" placeholder="회사 코드"><br><br>
+            
+            <input class="input" type="text" name="name" placeholder="이름"><br><br>
+            
+            <input class="input" type="number" name="phone" placeholder="전화번호"><br><br>
+
+            <input class="input" type="text" name="department" placeholder="소속 부서"><br><br>
+
+            <input class="e_mail"  type="text" required placeholder="이메일" name = "email">
+
+            <input id="myinput" class="domain_input"  type="text" required placeholder="직접입력" name = "back_email">
+
+            <br><br>
+
+            <input  class="button" type="submit"  value="중복 확인"><br><br>
+
+            <input class="input" type="password" name="password" placeholder="비밀번호" ><br><br>
+
+            <input class="input" type="password" name="passwordVerify" placeholder="비밀번호 확인" ><br><br>
+
+            <div class="check_box" >
+                <input type="checkbox" name="auto_login" value="자동 로그인"> 이용약관 및 개인정보 처리방침에 동의합니다. 
+            </div>
+            
+            <br>
+
+            <input  class="button" type="submit"  value="확인">
+
+        </form>
+    </div>
+</body>
+
+<script>
+
+    function input(obj){
+
+        var selectval = obj.value;
+
+        var con = document.getElementById("myinput");
+        var con_2 = document.getElementById("myselect");
+        
+        if(selectval == "otherDomains"){
+            con.style.display = 'inline-block'
+            con_2.style.display = 'none'
+        }
+
+    }
+</script>
+
+
+</html>

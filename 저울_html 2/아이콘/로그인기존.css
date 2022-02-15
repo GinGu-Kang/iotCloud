@@ -1,0 +1,112 @@
+
+.e_mail{
+    border:1px solid;
+    width: 100px;
+    height: 55px;
+    margin: 40px 0 23px;
+    padding: 15px 307px 16px 13px;
+    border-radius: 5px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: #fff;
+    font-size:18px;
+    
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #707070;
+}
+
+.domain{
+    border:1px solid;
+    height: 90px ; 
+    border-radius:4px; 
+    font-size:18px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+}
+
+.domain_input{
+    border:1px solid;
+    width: 110px;
+    height: 90px ; 
+    border-radius:4px; 
+    font-size:18px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    display:none;
+}
+
+
+.password{
+    width: 250px;
+    height: 55px;
+    margin: 40px 0 23px;
+    padding: 15px 307px 16px 13px;
+    border-radius: 5px;
+    border:1px solid;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: #fff;
+    font-size:18px;
+    
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #707070;
+}
+
+.button {
+    border:1px solid;
+    width: 580px;
+    height: 80px;
+    margin: 24px 0 23px;
+    border-radius: 5px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: #4282ff;
+
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+}
+
+.box{
+    width: 1200;
+    height: 800px;
+    padding: 145px 433px 262px  435px;
+    background-color: #fafafa;
+    text-align: center;
+}
+
+
+.check_box{
+    margin: 0px 455px 0px 0px;
+    font-size:18px;
+}
+
+
+
+.text{
+    text-decoration:none; 
+    margin: 49px 7px 0 32.5px;
+    opacity: 0.5;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #383838;
+}

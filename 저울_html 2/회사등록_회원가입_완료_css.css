@@ -1,0 +1,36 @@
+.button {
+    background:linear-gradient(to bottom, #1E90FF 5%, #1E90FF 100%);
+    background-color:#4282ff;
+    border-radius:10px;
+    border:1px solid #1E90FF;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:18px;
+    width: 331px;
+    text-align: center;
+    padding:12px 37px;
+    text-decoration:none;
+    margin: 72px 0 23px;
+}
+
+.box{
+    width: 1200;
+    height: 800px;
+    padding: 145px 433px 262px  435px;
+    background-color: #fafafa;
+    text-align: center;
+}
+
+.text_1{
+    margin: 68px 0 23px;
+    font-family: Roboto;
+    font-size: 40px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.56;
+    letter-spacing: normal;
+    color: #707070;
+}
