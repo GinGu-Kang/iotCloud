@@ -7,6 +7,38 @@
     <link  href="/사원_css.css" rel="stylesheet" type="text/css" >
 </head>
 
+<section>
+
+
+    <form name="signUp" th:action="@{/auth/signUp}" method="post">
+        <input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}" />
+        <input type="hidden" name="enabled" value="true" />
+        <span class="email_ok">사용 가능한 아이디입니다.</span>
+        <span class="email_already">누군가 이 아이디를 사용하고 있어요.</span><br>
+        아이디<br>
+        <input type="text" id = "email" name="email" placeholder="이메일 입력" autocomplete="username" onblur="checkEmail()"/><br>
+        회사코드입력<br>
+        <span class="company_ok">확인되었습니다.</span>
+        <span class="company_already">존재하지 않는 회사코드입니다.</span><br>
+        <input type="text" id = "company" name="companyCode" placeholder="이메일 입력" value="회사코드입력" onblur="checkCompany()"/><br>
+
+
+        비밀번호<br>
+        <input type="password" name="password" placeholder="123456"><br>
+        이름<br>
+        <input type="text" name="name" placeholder="이름입력"><br>
+        <br>
+        핸드폰 번호 입력<br>
+        <input type="number" name="phone" placeholder="11"><br>
+        부서<br>
+        <input type="text" name="department" placeholder="이름입력"><br>
+        <br><br>
+
+        <input type="submit"  value="제출">
+
+    </form>
+</section>
+
 <body>
     <div class="workerForm">
         <img src="아이콘/1.png" ><br>
