@@ -1,0 +1,111 @@
+@charset "utf-8";
+/*Reset Css*/
+* {box-sizing: border-box;}
+html, body {margin: 0; padding: 0;}
+h1, h2, h3, h4, h5, h6 p {margin: 0;}
+ul, ol {margin: 0; padding: 0; list-style: none;}
+a {text-decoration: none;}
+input , button, textarea {outline: none;}
+button {cursor: pointer;}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-color: #FAFAFA;
+    display: flex;
+    justify-content: center;
+}
+
+.section-content {
+    width: 1380px;
+    height: 883px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* 기기주문 */
+.oder {
+    width: 450px;
+    height: 521px;
+}
+
+.card01 {
+    margin-top: 22px;
+    width: 450px;
+    height: 462px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+
+}
+
+.oder-items {
+    width: 310px;
+    height: 332px;
+    display: flex;
+    flex-wrap: wrap;
+	align-content: space-between;
+}
+
+.item-inner {
+    width: 314px;
+    height: 88px;
+}
+
+input {
+    width: 300px;
+    height: 46px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 10px;
+}
+
+#search {
+    width: 204px;
+    height: 46px;
+}
+
+.item-search {
+    display: flex;
+    justify-content: space-between;
+}
+.postcode-section{
+    display: flex;
+}
+.search-button {
+    -left: 12px;
+    width: 88x;
+    height: 46px;
+}
+
+/* 배송 */
+.delivery {
+    width: 450px;
+    height: 881px;
+}
+
+.card02 {
+    margin-top: 22px;
+    width: 450px;
+    height: 736px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+
+.del-items {
+    width: 310px;
+    height: 576px;
+    display: flex;
+    flex-wrap: wrap;
+	align-content: space-between;
+}
+
+.adress {
+    width: 314px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}

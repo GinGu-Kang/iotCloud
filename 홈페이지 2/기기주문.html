@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+
+    <meta charset="UTF-8">
+    <title>HTML Intro</title>
+    <link  href="C:\Users\Joon\Desktop\홈페이지\기기주문.css" rel="stylesheet" type="text/css" >
+    <script  src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery/latest/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" />
+</head>
+
+<body>
+    <div class="box">
+        <span class="group_text1">
+            기기주문
+        </span>
+        <span class="group_text2">
+            배송
+        </span>
+        <div class="group1">
+
+            <div class="group_box">
+                <span class="text">
+                    A3 (40X30cm)
+                </span> 
+                <input class="input_box1" type="number" name="A3" value="A3">
+
+                <br>
+                <span class="text">
+                    A4 (40X30cm)
+                </span> 
+                <input class="input_box1" type="number" name="A3" value="A3">
+
+                <br>
+                <span class="text">
+                    A5 (40X30cm)
+                </span> 
+                <input class="input_box1" type="number" name="A3" value="A3">
+
+
+            </div>
+
+            <div class="group_box">
+                <span class="text">
+                    희망 배송일
+                </span>
+                <input class="input_box2" type="text" name="daterange" value="01/01/2018 - 01/15/2018" />
+                <br>
+                <span class="text">
+                    주문 당사자 이름
+                </span>
+                <input class="input_box2" type="text" name="name" value="" />
+                <br>
+                <span class="text">
+                   우편번호
+                </span>
+                <input class="input_box2_Mail" type="text" name="name" value="" />
+                <input class="search_button" type="button" name="search" value="검색" />
+
+                <br>
+                <span class="text">
+                    상세주소
+                 </span>
+                 <input class="input_box2" type="text" name="address " value="" />
+            </div>
+            
+            <div class="group_box_left">
+                <div class="group1">
+                    <img class="img" src="아이콘/바구니.png" >
+                    <span class="text">기기주문</span> 
+                    <img class="img" src="아이콘/확인.png" >
+                </div>
+                
+                <div class="dot_line"> </div>
+                <div class="dot_line"> </div>
+                <div class="dot_line"> </div>
+                <div class="dot_line"> </div>
+                <div class="dot_line"> </div>
+                <div class="dot_line"> </div>
+                <div class="dot_line"> </div>
+                <div class="dot_line"> </div>
+                <div class="dot_line"> </div>
+                <div class="dot"> </div>
+                <div class="dot_line"> </div>
+                <div class="dot_line"> </div>
+                <div class="dot_line"> </div>
+                <div class="dot_line"> </div>
+                <div class="dot_line"> </div>
+                <div class="dot_line"> </div>
+                <div class="dot_line"> </div>
+                <div class="dot_line"> </div>
+                <div class="dot_line"> </div>
+                <div class="dot"> </div>
+
+                <input class="order_button" type="button" name="order" value="주문하기" />
+            </div>
+        </div>
+        
+        </div>
+    </div>
+
+
+    <script>
+
+        $(function() {
+          $('input[name="daterange"]').daterangepicker({
+            opens: 'left'
+          }, function(start, end, label) {
+            console.log("A new date selection was made: " + start.format('YYYY-MM-DD') + ' to ' + end.format('YYYY-MM-DD'));
+          });
+        });
+
+    </script>
+</body>
+
+
+</html>

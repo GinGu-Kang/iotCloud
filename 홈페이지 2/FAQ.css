@@ -1,0 +1,177 @@
+.box{
+    width: 100%;
+    height: 800px;
+    padding: 100px 100px 100px  100px;
+    background-color: #fafafa;
+}
+
+.group{
+    width: 1211px;
+}
+.search{
+    width: 1211px;
+    height: 60px;
+    margin: 21px 236px 30px 142px;
+    padding: 19.4px 25px 18.6px 48px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16);
+    background-color: #fff;
+    
+
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #a8a8a8;
+}
+
+.line{
+    width: 1290px;
+    margin: 0px 236.5px 21px 142px;
+    background-color: #d1d1d1;
+}
+
+.edit_icon{
+    margin: auto;
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    margin-left: -300px;
+    
+}
+
+.text{
+    width: 1290px;
+    height: 22px;
+    margin: 21px 269.8px 19px 170.5px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #4e4e4e;
+}
+
+.title{
+    width: 300px;
+    height: 40px;
+ 
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000;
+}
+
+
+
+details {
+    margin-bottom: 1rem;
+}
+
+details > summary {
+    background-color: #fafafa;
+    padding: 1rem;
+    outline: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+details > summary::-webkit-details-marker {
+    background: url(https://marshall-storage.tistory.com/attachment/cfile29.uf@993E16335F785C0037CB43.svg) no-repeat center;
+    background-size: contain;
+    color: transparent;
+    transform: rotate3d(0, 0, 1, 90deg);
+    transition: transform 0.25s;
+}
+
+details[open] > summary::-webkit-details-marker {
+    transform: rotate3d(0, 0, 1, 180deg);
+}
+
+details[open] > summary {
+    background-color: #f0f0f0;
+}
+
+details[open] > summary ~ * {
+    animation: reveal 0.5s;
+}
+
+@keyframes reveal {
+    from {
+        opacity: 0;
+        transform: translate3d(0, -10px, 0);
+    }
+
+    to {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+}
+.answer_title{
+    width: 1250px;
+    margin: 0px 0px 0px 150px;
+    background-color: #fafafa;
+}
+
+.answer_title:hover{
+    
+    background-color: #f0f0f0;
+}
+
+.answer_text{
+    width: 1250px;
+    margin: 0px 0px 0px 160px;
+    background-color: #f0f0f0;
+}
+
+.more {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+button {
+background-color: #bbdeff;
+border: none;
+cursor: pointer;
+outline: none;
+padding: 0;
+height: 32px;
+line-height: 32px;
+width: 120px;
+border-radius: 16px;
+margin-left: 400px;
+z-index: 999;
+}
+
+.list {
+padding: 0;
+}
+.list li {
+opacity: 1;
+list-style: none;
+margin-top: 10px;
+
+}
+.list li.is-hidden {
+opacity: 0;
+height: 0;
+margin: 0;
+}
+
+.item{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}

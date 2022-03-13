@@ -1,0 +1,109 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+
+
+<head>
+
+    <meta charset="UTF-8">
+    <title>HTML Intro</title>
+    <link  href="C:\Users\PD3\Desktop\홈페이지\FAQ.css" rel="stylesheet" type="text/css" >
+    <script  src="http://code.jquery.com/jquery-latest.min.js"></script>
+</head>
+
+<body>
+    
+    <div class="box">
+        
+        <div class="title">
+            자주 묻는 질문
+        </div>
+
+        <div class="group">
+            <input class="search" type="text" name="search" placeholder="Q. BMW 풀체인지 신형 7시리즈 소식!">
+            <img class="edit_icon" src="아이콘/돋보기.png" >
+
+            <ul class="list">
+
+                <li>
+                <HR class="line">
+                    <details  class="item">
+                        <summary class="answer_title">Q. BMW 풀체인지 신형 7시리즈 소식! feat. i7, BMW 시어터 스크린, 자동 도어, 스플릿 헤드라이트
+                            BMW 풀체인지 신형 7시리즈 소식!
+                        </summary>
+                        <div class="answer_text" >
+                            <hr >
+                            Q. BMW 풀체인지 신형 7시리즈 소식! feat. i7, BMW 시어터 스크린, 자동 도어, 스플릿 헤드라이트
+                            BMW 풀체인지 신형 7시리즈 소식!Q. BMW 풀체인지 신형 7시리즈 소식! feat. i7, BMW 시어터 스크린, 자동 도어, 스플릿 헤드라이트
+                        </div>
+                    </details>
+                </li>
+
+                <li>
+                <HR class="line">
+                    <details  class="item">
+                        <summary class="answer_title">Q. BMW 풀체인지 신형 7시리즈 소식! feat. i7, BMW 시어터 스크린, 자동 도어, 스플릿 헤드라이트
+                            BMW 풀체인지 신형 7시리즈 소식!
+                        </summary>
+                        <div class="answer_text" >
+                            <hr >
+                            Q. BMW 풀체인지 신형 7시리즈 소식! feat. i7, BMW 시어터 스크린, 자동 도어, 스플릿 헤드라이트
+                            BMW 풀체인지 신형 7시리즈 소식!Q. BMW 풀체인지 신형 7시리즈 소식! feat. i7, BMW 시어터 스크린, 자동 도어, 스플릿 헤드라이트
+                        </div>
+                    </details>
+                </li>
+
+                <li>
+                    <HR class="line">
+                        <details  class="item">
+                            <summary class="answer_title">Q. BMW 풀체인지 신형 7시리즈 소식! feat. i7, BMW 시어터 스크린, 자동 도어, 스플릿 헤드라이트
+                                BMW 풀체인지 신형 7시리즈 소식!
+                            </summary>
+                            <div class="answer_text" >
+                                <hr >
+                                Q. BMW 풀체인지 신형 7시리즈 소식! feat. i7, BMW 시어터 스크린, 자동 도어, 스플릿 헤드라이트
+                                BMW 풀체인지 신형 7시리즈 소식!Q. BMW 풀체인지 신형 7시리즈 소식! feat. i7, BMW 시어터 스크린, 자동 도어, 스플릿 헤드라이트
+                            </div>
+                        </details>
+                    </li>
+
+
+                <li>
+                    <HR class="line">
+                        <details  class="item">
+                            <summary class="answer_title">Q. BMW 풀체인지 신형 7시리즈 소식! feat. i7, BMW 시어터 스크린, 자동 도어, 스플릿 헤드라이트
+                                BMW 풀체인지 신형 7시리즈 소식!
+                            </summary>
+                            <div class="answer_text" >
+                                <hr >
+                                Q. BMW 풀체인지 신형 7시리즈 소식! feat. i7, BMW 시어터 스크린, 자동 도어, 스플릿 헤드라이트
+                                BMW 풀체인지 신형 7시리즈 소식!Q. BMW 풀체인지 신형 7시리즈 소식! feat. i7, BMW 시어터 스크린, 자동 도어, 스플릿 헤드라이트
+                            </div>
+                        </details>
+                    </li>
+                
+            
+            </ul>
+
+            <div class="more">
+                <button class="more-btn">더보기</button>
+            </div>
+        </div>   
+    </div>
+
+    <script>
+
+        var moreNum = 1;
+        $(".list li:nth-child(n + " + (moreNum + 1) + ")").addClass("is-hidden");
+        $(document).on("click",".more-btn", function () {
+            console.log('huhuihi');
+          $(".list li.is-hidden").slice(0, moreNum).removeClass("is-hidden");
+          if ($(".list li.is-hidden").length == 0) {
+            $(".more").fadeOut();
+          }
+        });
+
+    </script>
+    
+</body>
+</html>

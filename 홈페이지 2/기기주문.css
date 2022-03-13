@@ -1,0 +1,179 @@
+.box{
+    width: 100%;
+    height: 800px;
+    padding: 100px 100px 100px  100px;
+    background-color: #fafafa;
+}
+
+.group1{
+    display: flex;
+    flex-direction: row;
+}
+
+.group_text1{
+    width: 123px;
+    height: 40px;
+    margin: 58px 419px 18px 102px;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000;
+}
+
+.group_text2{
+    width: 123px;
+    height: 40px;
+    margin: 58px 419px 18px 240px;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000;
+}
+
+
+.group_box{
+    width: 30%;
+    height: 736px;
+    margin: 19px 92px 141px 102px;
+    padding: 112.5px 74.8px 145.7px 64.8px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16);
+    background-color: #fff;
+}
+
+.text{
+    width: 150px;
+    height: 21px;
+    margin: 0 160.4px 19.5px 0;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #121212;
+}
+
+.input_box1{
+    width: 70%;
+    height: 46px;
+    margin: 19.5px 0 200px 10.4px;
+    padding: 10px 20.1px 12px 22px;
+    border-radius: 5px;
+    border: solid 2px #4282ff;
+    background-color: #fff;
+}
+
+.input_box2{
+    width: 70%;
+    height: 46px;
+    margin: 19.5px 0 100px 10.4px;
+    padding: 10px 20.1px 12px 22px;
+    border-radius: 5px;
+    border: solid 2px #4282ff;
+    background-color: #fff;
+}
+
+.search_button{
+    width: 88px;
+    height: 46px;
+    
+    border-radius: 5px;
+    background-color: #4d83f7;
+
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+}
+
+.input_box2_Mail{
+    width: 45%;
+    height: 46px;
+    margin: 19.5px 0 100px 10.4px;
+    padding: 10px 20.1px 12px 22px;
+    border-radius: 5px;
+    border: solid 2px #4282ff;
+    background-color: #fff;
+}
+
+.group_box_left{
+    width: 30%;
+    height: 736px;
+    margin: 19px 92px 141px 102px;
+   
+    border-radius: 10px; 
+}
+
+.dot_line{
+    width: 4px;
+    height: 15px;
+    margin: 22.5px 111px 7.5px 300px;
+    background-color: #e3e3e3;
+}
+
+.dot{
+    width: 17px;
+    height: 17px;
+    margin: 22.5px 111px 7.5px 295px;
+    border-radius: 50%;
+    background-color: #e3e3e3;
+}
+
+.order_button{
+    width: 253px;
+    height: 46px;
+    margin: 145px 81px 154px 70px;
+    padding: 13px 62px 14px;
+    border-radius: 8px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: #4d83f7;
+
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+}
+
+.text{
+    width: 100px;
+    height: 27px;
+    
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: right;
+    color: #4d83f7;
+}
+
+.img{
+    width: 47px;
+    height: 46px;
+   
+}
